@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Image4"
+    android:background="#253334">
+
+    <ImageView
+        android:id="@+id/imageView19"
+        android:layout_width="411dp"
+        android:layout_height="230dp"
+        android:layout_marginTop="220dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/rectangle_81_1_"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/zak"
+        android:layout_width="134dp"
+        android:layout_height="84dp"
+        android:layout_marginStart="72dp"
+        android:layout_marginTop="180dp"
+        android:background="#00FFFFFF"
+        android:fontFamily="@font/alegreya_medium"
+        android:text="Закрыть"
+        android:onClick="Back"
+        app:layout_constraintStart_toEndOf="@+id/button8"
+        app:layout_constraintTop_toBottomOf="@+id/imageView19" />
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="134dp"
+        android:layout_height="84dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="180dp"
+        android:background="#00FFFFFF"
+        android:fontFamily="@font/alegreya_medium"
+        android:text="Удалить"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView19" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

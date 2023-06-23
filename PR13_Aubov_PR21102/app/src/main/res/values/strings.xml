@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">PR13_Aubov_PR-21.102</string>
+    <string name="hello">Привет</string>
+    <string name="intriductiontext">
+        Наслаждайся отборочными.\n Будь внимателен.\n Делай хорошо.
+    </string>
+    <string name="sp">Спокойным</string>
+    <string name="sos">Сосредоточенным</string>
+    <string name="ras">Расслабленным</string>
+    <string name="vs">Взволнованным</string>
+    <string name="start">Войти в аккаунт</string>
+    <string name="register">Ещё нет аккаунта? Зарегистрируйтесь!</string>
+    <string name="name">С возвращением Эмиль!</string>
+    <string name="os">Каким ты себя ощущаешь сегодня?</string>
+    <string name="signin">Sign In</string>
+    <string name="reg">Register</string>
+    <string name="email">Email</string>
+    <string name="password">Пароль</string>
+    <string name="registerbutton">Register</string>
+    <string name="signinbutton">SignIn</string>
+</resources>
